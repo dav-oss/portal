@@ -203,6 +203,20 @@ For example, you can install `0.15.0` with the command:
 ```
 dfxvm install 0.15.0
 ```
+### Checking if dfx is correctly installed
+
+```
+dfx --version
+```
+If you get:
+```
+bash: DFX: command not found
+```
+Configure the PATH Varible as follows:
+```
+echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.bashrc"
+```
+Exit the terminal and run 
 
 ### Uninstalling a specific version
 
